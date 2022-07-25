@@ -25,4 +25,5 @@ require_relative 'application'
 Rails.application.initialize!
 
 ActiveResource::Base.logger = ActiveRecord::Base.logger
+#ActiveResource::Base.logger = ActiveRecord::Base.logger
 
